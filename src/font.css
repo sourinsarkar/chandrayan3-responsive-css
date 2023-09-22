@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'JetBrains Mono1';
+    font-family: 'JetBrains Mono';
     src: url('./assets/fonts/JetBrains/JetBrainsMono-Thin.woff2') format('woff2');
     font-weight: 100;
     font-style: normal;
@@ -105,5 +105,5 @@
 }
 
 body {
-    font-family: 'JetBrains Mono1', Arial, sans-serif;  /* fallback font test */
+    font-family: 'JetBrains Mono', Arial, sans-serif;  /* fallback font test */
 }
