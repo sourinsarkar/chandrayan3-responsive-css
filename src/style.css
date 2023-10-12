@@ -10,11 +10,15 @@ body {
     font-weight: 100;
     font-style: normal;
     background: hsla(186, 33%, 94%, 1);
-    
+
     background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
     background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
     background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1);
+}
+
+img {
+    max-width: 100%;
 }
 
 .hero {
@@ -33,7 +37,12 @@ body {
 }
 
 .intro_text {
-    width: 70%;
+    width: 60%;
+}
+
+.intro_img {
+    /* width: 30%; */
+    align-self: flex-start;
 }
 
 .headText {
@@ -50,13 +59,16 @@ body {
 
 .btn {
     padding: 0.75em 1.25em;
-    background-color: #6750A4;;
+    background-color: #6750A4;
+    ;
     text-decoration: none;
     border-radius: 100px;
     font-size: 0.95rem;
     font-weight: 300;
     color: #ccc;
     backdrop-filter: blur(8px);
+    border: none;
+    font-family: inherit;
 }
 
 .btn:hover {
@@ -67,6 +79,7 @@ body {
     display: flex;
     flex-direction: row;
     text-align: left;
+    justify-content: space-between;
 }
 
 .col {
